@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A00490C1AB800750020847F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A00490B1AB800750020847F /* main.m */; };
+		0A00490F1AB800750020847F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A00490E1AB800750020847F /* AppDelegate.m */; };
+		0A0049121AB800750020847F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0049111AB800750020847F /* ViewController.m */; };
+		0A0049151AB800750020847F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A0049131AB800750020847F /* Main.storyboard */; };
+		0A0049171AB800750020847F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A0049161AB800750020847F /* Images.xcassets */; };
+		0A00491A1AB800750020847F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A0049181AB800750020847F /* LaunchScreen.xib */; };
+		0A0049261AB800750020847F /* KWFormViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0049251AB800750020847F /* KWFormViewDemoTests.m */; };
+		0A0049321AB800BD0020847F /* KWFormView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0049311AB800BD0020847F /* KWFormView.m */; };
+		0AB52B001ABBFED6007E4AFA /* KWFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB52AFF1ABBFED6007E4AFA /* KWFirstViewController.m */; };
+		0AB52B031ABC0984007E4AFA /* KWPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB52B021ABC0984007E4AFA /* KWPerson.m */; };
+		0AD04D191AB97A3D0061F630 /* KWFormViewQuickBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD04D181AB97A3D0061F630 /* KWFormViewQuickBuilder.m */; };
+		0AD28C251ABFA9DB00D64A46 /* datas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AD28C241ABFA9DB00D64A46 /* datas.plist */; };
+		0AD28C281ABFB0E300D64A46 /* KWSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD28C271ABFB0E300D64A46 /* KWSecondViewController.m */; };
+		0AD28C2B1ABFBF8900D64A46 /* KWThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD28C2A1ABFBF8900D64A46 /* KWThirdViewController.m */; };
+		0AD28C2E1ABFDEED00D64A46 /* KWForthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD28C2D1ABFDEED00D64A46 /* KWForthViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A0049201AB800750020847F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A0048FE1AB800750020847F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A0049051AB800750020847F;
+			remoteInfo = KWFormViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A0049061AB800750020847F /* KWFormViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KWFormViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A00490A1AB800750020847F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A00490B1AB800750020847F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A00490D1AB800750020847F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A00490E1AB800750020847F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A0049101AB800750020847F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0A0049111AB800750020847F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0A0049141AB800750020847F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A0049161AB800750020847F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0A0049191AB800750020847F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0A00491F1AB800750020847F /* KWFormViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KWFormViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A0049241AB800750020847F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A0049251AB800750020847F /* KWFormViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWFormViewDemoTests.m; sourceTree = "<group>"; };
+		0A0049301AB800BD0020847F /* KWFormView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWFormView.h; sourceTree = "<group>"; };
+		0A0049311AB800BD0020847F /* KWFormView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWFormView.m; sourceTree = "<group>"; };
+		0AB52AFE1ABBFED6007E4AFA /* KWFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWFirstViewController.h; sourceTree = "<group>"; };
+		0AB52AFF1ABBFED6007E4AFA /* KWFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWFirstViewController.m; sourceTree = "<group>"; };
+		0AB52B011ABC0984007E4AFA /* KWPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWPerson.h; sourceTree = "<group>"; };
+		0AB52B021ABC0984007E4AFA /* KWPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWPerson.m; sourceTree = "<group>"; };
+		0AD04D171AB97A3D0061F630 /* KWFormViewQuickBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWFormViewQuickBuilder.h; sourceTree = "<group>"; };
+		0AD04D181AB97A3D0061F630 /* KWFormViewQuickBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWFormViewQuickBuilder.m; sourceTree = "<group>"; };
+		0AD28C241ABFA9DB00D64A46 /* datas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = datas.plist; sourceTree = "<group>"; };
+		0AD28C261ABFB0E300D64A46 /* KWSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWSecondViewController.h; sourceTree = "<group>"; };
+		0AD28C271ABFB0E300D64A46 /* KWSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWSecondViewController.m; sourceTree = "<group>"; };
+		0AD28C291ABFBF8900D64A46 /* KWThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWThirdViewController.h; sourceTree = "<group>"; };
+		0AD28C2A1ABFBF8900D64A46 /* KWThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWThirdViewController.m; sourceTree = "<group>"; };
+		0AD28C2C1ABFDEED00D64A46 /* KWForthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWForthViewController.h; sourceTree = "<group>"; };
+		0AD28C2D1ABFDEED00D64A46 /* KWForthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWForthViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A0049031AB800750020847F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A00491C1AB800750020847F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A0048FD1AB800750020847F = {
+			isa = PBXGroup;
+			children = (
+				0A0049081AB800750020847F /* KWFormViewDemo */,
+				0A0049221AB800750020847F /* KWFormViewDemoTests */,
+				0A0049071AB800750020847F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A0049071AB800750020847F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A0049061AB800750020847F /* KWFormViewDemo.app */,
+				0A00491F1AB800750020847F /* KWFormViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A0049081AB800750020847F /* KWFormViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0A00490D1AB800750020847F /* AppDelegate.h */,
+				0A00490E1AB800750020847F /* AppDelegate.m */,
+				0AB52B011ABC0984007E4AFA /* KWPerson.h */,
+				0AB52B021ABC0984007E4AFA /* KWPerson.m */,
+				0A0049101AB800750020847F /* ViewController.h */,
+				0A0049111AB800750020847F /* ViewController.m */,
+				0AB52AFE1ABBFED6007E4AFA /* KWFirstViewController.h */,
+				0AB52AFF1ABBFED6007E4AFA /* KWFirstViewController.m */,
+				0AD28C261ABFB0E300D64A46 /* KWSecondViewController.h */,
+				0AD28C271ABFB0E300D64A46 /* KWSecondViewController.m */,
+				0AD28C291ABFBF8900D64A46 /* KWThirdViewController.h */,
+				0AD28C2A1ABFBF8900D64A46 /* KWThirdViewController.m */,
+				0AD28C2C1ABFDEED00D64A46 /* KWForthViewController.h */,
+				0AD28C2D1ABFDEED00D64A46 /* KWForthViewController.m */,
+				0A0049131AB800750020847F /* Main.storyboard */,
+				0AD28C241ABFA9DB00D64A46 /* datas.plist */,
+				0A0049161AB800750020847F /* Images.xcassets */,
+				0A00492F1AB800A60020847F /* KWFormView */,
+				0A0049181AB800750020847F /* LaunchScreen.xib */,
+				0A0049091AB800750020847F /* Supporting Files */,
+			);
+			path = KWFormViewDemo;
+			sourceTree = "<group>";
+		};
+		0A0049091AB800750020847F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A00490A1AB800750020847F /* Info.plist */,
+				0A00490B1AB800750020847F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A0049221AB800750020847F /* KWFormViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A0049251AB800750020847F /* KWFormViewDemoTests.m */,
+				0A0049231AB800750020847F /* Supporting Files */,
+			);
+			path = KWFormViewDemoTests;
+			sourceTree = "<group>";
+		};
+		0A0049231AB800750020847F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A0049241AB800750020847F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A00492F1AB800A60020847F /* KWFormView */ = {
+			isa = PBXGroup;
+			children = (
+				0A0049301AB800BD0020847F /* KWFormView.h */,
+				0A0049311AB800BD0020847F /* KWFormView.m */,
+				0AD04D171AB97A3D0061F630 /* KWFormViewQuickBuilder.h */,
+				0AD04D181AB97A3D0061F630 /* KWFormViewQuickBuilder.m */,
+			);
+			path = KWFormView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A0049051AB800750020847F /* KWFormViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A0049291AB800750020847F /* Build configuration list for PBXNativeTarget "KWFormViewDemo" */;
+			buildPhases = (
+				0A0049021AB800750020847F /* Sources */,
+				0A0049031AB800750020847F /* Frameworks */,
+				0A0049041AB800750020847F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KWFormViewDemo;
+			productName = KWFormViewDemo;
+			productReference = 0A0049061AB800750020847F /* KWFormViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A00491E1AB800750020847F /* KWFormViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A00492C1AB800750020847F /* Build configuration list for PBXNativeTarget "KWFormViewDemoTests" */;
+			buildPhases = (
+				0A00491B1AB800750020847F /* Sources */,
+				0A00491C1AB800750020847F /* Frameworks */,
+				0A00491D1AB800750020847F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A0049211AB800750020847F /* PBXTargetDependency */,
+			);
+			name = KWFormViewDemoTests;
+			productName = KWFormViewDemoTests;
+			productReference = 0A00491F1AB800750020847F /* KWFormViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A0048FE1AB800750020847F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = kevin;
+				TargetAttributes = {
+					0A0049051AB800750020847F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					0A00491E1AB800750020847F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 0A0049051AB800750020847F;
+					};
+				};
+			};
+			buildConfigurationList = 0A0049011AB800750020847F /* Build configuration list for PBXProject "KWFormViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A0048FD1AB800750020847F;
+			productRefGroup = 0A0049071AB800750020847F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A0049051AB800750020847F /* KWFormViewDemo */,
+				0A00491E1AB800750020847F /* KWFormViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A0049041AB800750020847F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0049151AB800750020847F /* Main.storyboard in Resources */,
+				0A00491A1AB800750020847F /* LaunchScreen.xib in Resources */,
+				0AD28C251ABFA9DB00D64A46 /* datas.plist in Resources */,
+				0A0049171AB800750020847F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A00491D1AB800750020847F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A0049021AB800750020847F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD28C281ABFB0E300D64A46 /* KWSecondViewController.m in Sources */,
+				0A0049321AB800BD0020847F /* KWFormView.m in Sources */,
+				0AD04D191AB97A3D0061F630 /* KWFormViewQuickBuilder.m in Sources */,
+				0AD28C2B1ABFBF8900D64A46 /* KWThirdViewController.m in Sources */,
+				0A0049121AB800750020847F /* ViewController.m in Sources */,
+				0A00490F1AB800750020847F /* AppDelegate.m in Sources */,
+				0AD28C2E1ABFDEED00D64A46 /* KWForthViewController.m in Sources */,
+				0A00490C1AB800750020847F /* main.m in Sources */,
+				0AB52B001ABBFED6007E4AFA /* KWFirstViewController.m in Sources */,
+				0AB52B031ABC0984007E4AFA /* KWPerson.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A00491B1AB800750020847F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0049261AB800750020847F /* KWFormViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A0049211AB800750020847F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A0049051AB800750020847F /* KWFormViewDemo */;
+			targetProxy = 0A0049201AB800750020847F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A0049131AB800750020847F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A0049141AB800750020847F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A0049181AB800750020847F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A0049191AB800750020847F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A0049271AB800750020847F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A0049281AB800750020847F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A00492A1AB800750020847F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KWFormViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A00492B1AB800750020847F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KWFormViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0A00492D1AB800750020847F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KWFormViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KWFormViewDemo.app/KWFormViewDemo";
+			};
+			name = Debug;
+		};
+		0A00492E1AB800750020847F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KWFormViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KWFormViewDemo.app/KWFormViewDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A0049011AB800750020847F /* Build configuration list for PBXProject "KWFormViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A0049271AB800750020847F /* Debug */,
+				0A0049281AB800750020847F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A0049291AB800750020847F /* Build configuration list for PBXNativeTarget "KWFormViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A00492A1AB800750020847F /* Debug */,
+				0A00492B1AB800750020847F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A00492C1AB800750020847F /* Build configuration list for PBXNativeTarget "KWFormViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A00492D1AB800750020847F /* Debug */,
+				0A00492E1AB800750020847F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A0048FE1AB800750020847F /* Project object */;
+}
